@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOMAcl"],
+    // FIXED: Changed 'DOMAcl' to 'DOM.Iterable'
+    "lib": ["ES2020", "DOM", "DOM.Iterable"], 
     "module": "ESNext",
     "skipLibCheck": true,
 
@@ -21,5 +22,6 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
+  // This line is now correct, but the file below must exist!
   "references": [{ "path": "./tsconfig.node.json" }]
 }

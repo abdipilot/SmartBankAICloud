@@ -1,6 +1,7 @@
-/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Add any other global styles below */
+/* * Now you can add any other global styles 
+* or imports below these three lines.
+*/
